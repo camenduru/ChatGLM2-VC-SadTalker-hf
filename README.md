@@ -1,14 +1,13 @@
 ---
-title: SadTalker
-emoji: 😭
-colorFrom: purple
+title: ChatGLM2+SadTalker
+emoji: 📺
+colorFrom: blue
 colorTo: green
 sdk: gradio
-sdk_version: 3.23.0
+sdk_version: 3.37.0
 app_file: app.py
-pinned: false
+pinned: true
 license: mit
-duplicated_from: kevinwang676/ChatGLM2-SadTalker-VC-en
 ---
 
 
