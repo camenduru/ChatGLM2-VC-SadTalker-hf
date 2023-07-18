@@ -1,8 +1,8 @@
 ---
 title: ChatGLM2-VC-SadTalker
 emoji: 📺
-colorFrom: blue
-colorTo: green
+colorFrom: yellow
+colorTo: pink
 sdk: gradio
 sdk_version: 3.37.0
 app_file: app.py
