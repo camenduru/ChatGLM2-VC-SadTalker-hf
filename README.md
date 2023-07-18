@@ -1,5 +1,5 @@
 ---
-title: ChatGLM2+SadTalker
+title: ChatGLM2+VC+SadTalker
 emoji: 📺
 colorFrom: blue
 colorTo: green
