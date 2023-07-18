@@ -348,7 +348,9 @@ with gr.Blocks(title="ChatGLM2-6B-int4", theme=gr.themes.Soft(text_size="sm"), a
             _ = f""" Some parameters of ChatGLM2:
                 * Low temperature: responses will be more deterministic and focused; High temperature: responses more creative.
                 * Suggested temperatures -- translation: up to 0.3; chatting: > 0.4
-                * Top P controls dynamic vocabulary selection based on context.
+                * Top P controls dynamic vocabulary selection based on context.\n
+                If you would like to chat with a specific character, you can send a prompt like "please act as Elon Musk and chat with me" to ChatGLM2.
+                
                 """
             gr.Markdown(dedent(_))
         chatbot = gr.Chatbot(height=300)
