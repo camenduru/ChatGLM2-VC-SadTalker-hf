@@ -338,11 +338,10 @@ async def text_to_speech_edge(text, voice):
 
 with gr.Blocks(title="ChatGLM2-6B-int4", theme=gr.themes.Soft(text_size="sm"), analytics_enabled=False) as demo:
     gr.HTML("<center>"
-            "<h1>🥳💕🎶 - ChatGLM2 + Voice Cloning + SadTalker</h1>"
+            "<h1>📺💕🎶 - ChatGLM2 + Voice Cloning + SadTalker</h1>"
             "</center>")
-    gr.Markdown("## <center>🤗 - Chat with any character you like through ChatGLM2-6B, voice cloning and SadTalker in real time</center>")
-    gr.Markdown("## <center>🌊 - Powered by [TalktalkAI](http://www.talktalkai.com)</center>")
-    gr.Markdown("## <center>⭐ - If you like the this app, please star my [Github repo](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning)</center>")
+    gr.Markdown("## <center>🥳 - Chat with any character you like through ChatGLM2-6B, voice cloning and SadTalker in real time</center>")
+    gr.Markdown("## <center>⭐ - If you like the this app, please star my [GitHub repo](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning)</center>")
 
     with gr.Tab("🍻 - ChatGLM2+Voice Cloning"):
         with gr.Accordion("📒 Info", open=False):
@@ -600,11 +599,5 @@ with gr.Blocks(title="ChatGLM2-6B-int4", theme=gr.themes.Soft(text_size="sm"), a
                 )    
     gr.Markdown("### <center>❗ Please do not generate content that could infringe upon the rights or cause harm to individuals or organizations.</center>")
     gr.Markdown("<center>💡 - How to use this app：After sending your questions to ChatGLM2, click “Chat now”, “Generate using Edge-TTS”, “Generate using FreeVC” and “Start video chat now” in turn.</center>")
-    gr.HTML('''
-        <div class="footer">
-                    <p>🌊🏞️🎶 - Powered by talktalkai
-                    </p>
-        </div>
-    ''')
 
 demo.queue().launch(show_error=True, debug=True)
