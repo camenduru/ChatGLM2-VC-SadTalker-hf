@@ -340,10 +340,10 @@ with gr.Blocks(title="ChatGLM2-6B-int4", theme=gr.themes.Soft(text_size="sm"), a
     gr.HTML("<center>"
             "<h1>📺💕🎶 - ChatGLM2 + Voice Cloning + SadTalker</h1>"
             "</center>")
-    gr.Markdown("## <center>🥳 - Chat with any character you like through ChatGLM2-6B, voice cloning and SadTalker in real time</center>")
+    gr.Markdown("## <center>🥳 - Chat with any character you like through ChatGLM2-6B, FreeVC and SadTalker in real time</center>")
     gr.Markdown("## <center>⭐ - If you like the this app, please star my [GitHub repo](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning)</center>")
 
-    with gr.Tab("🍻 - ChatGLM2+Voice Cloning"):
+    with gr.Tab("🍻 - ChatGLM2+VC"):
         with gr.Accordion("📒 Info", open=False):
             _ = f""" Some parameters of ChatGLM2:
                 * Low temperature: responses will be more deterministic and focused; High temperature: responses more creative.
